@@ -22,8 +22,8 @@ Profiles.Picture = function ProfilesPicture({ src, ...restProps }) {
       {...restProps}
       src={
         src
-          ? `/Netflix-clone/images/users/${src}.png`
-          : "/Netflix-clone/images/misc/loading.gif"
+          ? `/Film-Library/images/users/${src}.png`
+          : "/Film-Library/images/misc/loading.gif"
       }
     />
   )

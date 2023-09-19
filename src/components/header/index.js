@@ -45,7 +45,7 @@ Header.Search = function HeaderSearch({
         onClick={() => setSearchActive((searchActive) => !searchActive)}
         data-testid='search-click'
       >
-        <img src='/Netflix-clone/images/icons/search.png' alt='Search' />
+        <img src='/Film-Library/images/icons/search.png' alt='Search' />
       </SearchIcon>
       <SearchInput
         value={searchTerm}
@@ -84,7 +84,7 @@ Header.Profile = function HeaderProfile({ children, ...restProps }) {
 
 Header.Picture = function HeaderPicture({ src, ...restProps }) {
   return (
-    <Picture {...restProps} src={`/Netflix-clone/images/users/${src}.png `} />
+    <Picture {...restProps} src={`/Film-Library/images/users/${src}.png `} />
   )
 }
 

@@ -94,7 +94,7 @@ export function BrowseContainer({ slides }) {
               {slideItem.data.map((item) => (
                 <Card.Item key={item.docId} item={item}>
                   <Card.Image
-                    src={`/Netflix-clone/images/${category}/${item.genre}/${item.slug}/small.jpg`}
+                    src={`/Film-Library/images/${category}/${item.genre}/${item.slug}/small.jpg`}
                   />
                   <Card.Meta>
                     <Card.SubTitle>{item.title}</Card.SubTitle>
@@ -106,7 +106,7 @@ export function BrowseContainer({ slides }) {
             <Card.Feature category={category}>
               <Player>
                 <Player.Button />
-                <Player.Video src='/Netflix-clone/videos/bunny.mp4' />
+                <Player.Video src='/Film-Library/videos/bunny.mp4' />
               </Player>
             </Card.Feature>
           </Card>

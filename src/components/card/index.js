@@ -57,14 +57,14 @@ Card.Feature = function CardFeature({ children, category, ...restProps }) {
   return showFeature ? (
     <Feature
       {...restProps}
-      src={`/Netflix-clone/images/${category}/${itemFeature.genre}/${itemFeature.slug}/large.jpg`}
+      src={`/Film-Library/images/${category}/${itemFeature.genre}/${itemFeature.slug}/large.jpg`}
     >
       <Content>
         <FeatureTitle>{itemFeature.title}</FeatureTitle>
         <FeatureText>{itemFeature.description}</FeatureText>
         <FeatureClose onClick={() => setShowFeature(false)}>
           <img
-            src='/Netflix-clone/images/icons/close.png'
+            src='/Film-Library/images/icons/close.png'
             alt='Close'
             onClick={() => setShowFeature(false)}
           />
