@@ -32,9 +32,9 @@ Accordion.Header = function AccordionHeader({ children, ...restProps }) {
     >
       {children}
       {toggleShow ? (
-        <img src='/Netflix-clone/images/icons/close-slim.png' alt='Close' />
+        <img src='/Film-Library/images/icons/close-slim.png' alt='Close' />
       ) : (
-        <img src='/Netflix-clone/images/icons/add.png' alt='Open' />
+        <img src='/Film-Library/images/icons/add.png' alt='Open' />
       )}
     </Header>
   )

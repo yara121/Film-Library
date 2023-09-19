@@ -13,8 +13,8 @@ export const Background = styled.div`
     ),
     url(${({ src }) =>
         src
-          ? `../Netflix-clone/images/misc/${src}.jpg`
-          : "../Netflix-clone/images/misc/home-bg.jpg"})
+          ? `../Film-Library/images/misc/${src}.jpg`
+          : "../Film-Library/images/misc/home-bg.jpg"})
       top left / cover no-repeat;
 
   @media (max-width: 1100px) {
