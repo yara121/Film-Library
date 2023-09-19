@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/Film-Library/static/js/main.4b54f811.chunk.js",
+    "main.js.map": "/Film-Library/static/js/main.4b54f811.chunk.js.map",
+    "runtime-main.js": "/Film-Library/static/js/runtime-main.364232b7.js",
+    "runtime-main.js.map": "/Film-Library/static/js/runtime-main.364232b7.js.map",
+    "static/css/2.764ccc25.chunk.css": "/Film-Library/static/css/2.764ccc25.chunk.css",
+    "static/js/2.a0a856cc.chunk.js": "/Film-Library/static/js/2.a0a856cc.chunk.js",
+    "static/js/2.a0a856cc.chunk.js.map": "/Film-Library/static/js/2.a0a856cc.chunk.js.map",
+    "index.html": "/Film-Library/index.html",
+    "precache-manifest.9d2081b5a55ec4a47c0343b5d30aabed.js": "/Film-Library/precache-manifest.9d2081b5a55ec4a47c0343b5d30aabed.js",
+    "service-worker.js": "/Film-Library/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/Film-Library/static/css/2.764ccc25.chunk.css.map",
+    "static/js/2.a0a856cc.chunk.js.LICENSE.txt": "/Film-Library/static/js/2.a0a856cc.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Film-Library/static/media/logo.9fd00415.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.364232b7.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.a0a856cc.chunk.js",
+    "static/js/main.4b54f811.chunk.js"
+  ]
+}
